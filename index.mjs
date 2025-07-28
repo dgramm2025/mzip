@@ -18,6 +18,6 @@ for(const file of readdirSync(cwd(), { withFileTypes: true })) {
     if (!file.isFile()) {
         zip.addLocalFile(file.name);
     } else {
-        zip.addLocalDirectory(file.name);
+        zip.addLocalFolder(file.name);
     }
 }
