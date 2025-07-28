@@ -5,7 +5,7 @@ import { cwd } from "process";
 import AdmZip from "adm-zip";
 
 // creating archives
-// const zip = new AdmZip();
+const zip = new AdmZip();
 
 for(const file of readdirSync(cwd(), { withFileTypes: true })) {
     // add to zip
