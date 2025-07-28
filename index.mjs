@@ -2,7 +2,7 @@
 
 import { readdirSync, existsSync, readFileSync, writeFileSync } from "fs";
 import { cwd } from "process";
-// import AdmZip from "adm-zip";
+import AdmZip from "adm-zip";
 
 // creating archives
 // const zip = new AdmZip();
